@@ -12,6 +12,7 @@ copyright: Copyright &copy; 2023 3GCode
 
 # Configuration
 theme:
+  logo: assets/favicon.png
   name: material
   custom_dir: material/.overrides
   features:
