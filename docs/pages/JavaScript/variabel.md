@@ -37,5 +37,5 @@ Ketiga kata kunci ini memiliki perbedaan dalam cara variabel tersebut bisa diuba
     - `const` : The block scope level
 
 Gambar di bawah menunjukkan mindmap dari ketiga kata kunci ini dengan mengacu pada scope yang berbeda.
-![Gambar1](/assets/img/gambar1.png)
+![Gambar1](/assets/images/gambar1.png)
 

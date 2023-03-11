@@ -16,18 +16,16 @@ theme:
   custom_dir: material/.overrides
   features:
     - announce.dismiss
-    - content.action.edit
-    - content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.tabs.link
-    - content.tooltips
     # - header.autohide
-    # - navigation.expand
+    - navigation.expand
     - navigation.footer
     - navigation.indexes
+    - navigation.path
     # - navigation.instant
-    # - navigation.prune
+    - navigation.prune
     - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
@@ -36,6 +34,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - toc.integrate
     - toc.follow
     # - toc.integrate
   palette:
@@ -76,19 +75,13 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
-  # social:
-  #   - icon: fontawesome/brands/github
-  #     link: https://github.com/squidfunk
-  #   - icon: fontawesome/brands/gitter
-  #     link: https://gitter.im/squidfunk/mkdocs-material
-  #   - icon: fontawesome/brands/docker
-  #     link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-  #   - icon: fontawesome/brands/python
-  #     link: https://pypi.org/project/mkdocs-material/
-  #   - icon: fontawesome/brands/mastodon
-  #     link: https://fosstodon.org/@squidfunk
-  #   - icon: fontawesome/brands/twitter
-  #     link: https://twitter.com/squidfunk
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mahendrarendi/Docs-3GCode
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/himafortic_unesa?igshid=YmMyMTA2M2Y=
 
 # Extensions
 markdown_extensions:
@@ -140,4 +133,6 @@ nav:
       - Dasar Js: "pages/JavaScript/dasarjs.md"
       - Variabel: "pages/JavaScript/variabel.md"
       - Fungsi: "pages/JavaScript/fungsi.md"
+    - HTML:
+      - Dasar HTML: "pages/html/dasarhtml.md"
   - About: "pages/about.md"
