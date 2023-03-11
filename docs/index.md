@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: Docs 3G Code
 ---
 
-Welcome to Material for MkDocs.
+Welcome to Docs 3GCode.
